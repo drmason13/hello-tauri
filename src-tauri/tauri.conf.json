@@ -1,8 +1,8 @@
 {
   "build": {
-    "distDir": "../dist",
+    "distDir": "../public",
     "devPath": "http://localhost:5000",
-    "beforeDevCommand": "",
+    "beforeDevCommand": "yarn dev",
     "beforeBuildCommand": ""
   },
   "ctx": {},

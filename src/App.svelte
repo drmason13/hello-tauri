@@ -29,7 +29,6 @@
 
 <main>
 	<Hello bind:user={validatedUser} />
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 	<br/>
 	<label>
 		Name<input type="text" bind:value={rawUser.name} placeholder="name"/>
